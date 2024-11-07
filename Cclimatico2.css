@@ -1,0 +1,65 @@
+.large{
+    border: 2px solid black;
+    background :rgb(35, 34, 34);
+    padding:2px;
+    height: 1010px;
+    width :1150px;
+    margin :0 auto;
+    display :flex;
+    flex-direction : row; 
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items:flex-start;
+    border: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 7px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    }
+ .rojo{
+    background :rgb(227, 125, 125);
+    height: 1000px;
+    width :300px;
+    padding :3px;
+    margin:3px;
+    order:1;
+    flex-grow: 25; 
+    min-height: 300px;
+    }
+ .celeste{
+    background : rgb(131, 218, 233);
+    height: 1000px;
+    width :300px;
+    padding :3px;
+    margin:3px;
+    order:2;
+    flex-grow: 1;
+    flex-basis: 50%;
+    min-height: 300px;
+    }
+ .verde{
+    background : rgb(114, 231, 161);
+    height: 1000px;
+    width :300px;
+    padding :3px;
+    margin:3px;
+    order:3;
+    flex-grow: 1;
+    min-height: 300px;
+    }
+   img{
+      width: 200px;
+   }
+   .float-img1{
+      float: right;
+      margin: 3px;
+   }
+   .float-img2{
+      float: left;
+      margin: 5px;
+      width: 150px;
+   }
+
+   body{
+      background-color: rgb(255, 250, 183);
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
